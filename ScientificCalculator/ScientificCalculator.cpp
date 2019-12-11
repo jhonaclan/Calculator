@@ -1,16 +1,16 @@
 //Jhon Raimund Aclan
 
 /*****************************************************************
-//				*** SCIENTIFIC CALCULATOR ***					//
+//		*** SCIENTIFIC CALCULATOR ***			//
 ******************************************************************
-//																//
-//	This is a simple scientific calculator programmed in C++.	//
-//	It has all the functionalities of a scientific calculator	//
-//	allowing you to choose from the following Operations, in a  //
-//	Triginometric, and Logmarithic functions. The program runs  //
-//	do-while loop and will continue to execute as long as the	//
-//	condition inside the loop holds true.						//
-//																//
+//								//								
+//   This is a simple scientific calculator programmed in C++.	//
+//   It has all the functionalities of a scientific calculator	//
+//   allowing you to choose from the following Operations, in a //
+//   Triginometric, and Logmarithic functions. The program runs //
+//   do-while loop and will continue to execute as long as the	//
+//	condition inside the loop holds true.			//
+//								//
 *****************************************************************/
 
 //Declare header files
@@ -19,7 +19,7 @@
 #include <cstdlib>		//For system("CLS"); to clear output
 #include <cmath>		//set of functions to compute common mathematical operations
 #include <math.h>
-#include <string>   //For holding string information
+#include <string>   		//For holding string information
 using namespace std;
 
 //Declare prototype functions
@@ -218,7 +218,7 @@ int main()
 
 		//Menu of Scientific calculator
 		cout << "-----------------------------------------------------------------------------\n";
-		cout << "*							SCIENTIFIC CALCULATOR							 *\n";
+		cout << "*				SCIENTIFIC CALCULATOR				*\n";
 		cout << "-----------------------------------------------------------------------------\n";
 		cout << "Operations\t" << "\tTrigonometric Functions" << "\t\tLogarithmic Functions\n";
 		cout << "-----------------------------------------------------------------------------\n";
@@ -236,11 +236,11 @@ int main()
 		if (choice == 1)
 			addition();					//Calls addition function
 		else if (choice == 2)
-			subtraction();				//Calls subtraction function
+			subtraction();					//Calls subtraction function
 		else if (choice == 3)
 			division();					//Calls subtraction function
 		else if (choice == 4)
-			multiplication();			//Calls multiplication function
+			multiplication();				//Calls multiplication function
 		else if (choice == 5)
 			exponent();					//Calls exponent function
 		else if (choice == 6)
@@ -258,7 +258,7 @@ int main()
 		else if (choice == 12)
 			secant();					//Calls secant function
 		else if (choice == 13)
-			cotangent();				//Calls cotangent function
+			cotangent();					//Calls cotangent function
 		else if (choice == 14)
 			log();						//Calls log function
 		else if (choice == 15)

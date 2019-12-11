@@ -6,7 +6,7 @@
 //								//								
 //   This is a simple scientific calculator programmed in C++.	//
 //   It has all the functionalities of a scientific calculator	//
-//   allowing you to choose from the following Operations, in a //
+//   allowing you to choose from the following Operations,	//
 //   Triginometric, and Logmarithic functions. The program runs //
 //   do-while loop and will continue to execute as long as the	//
 //	condition inside the loop holds true.			//

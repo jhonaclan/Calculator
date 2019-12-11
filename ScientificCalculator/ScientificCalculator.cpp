@@ -16,10 +16,9 @@
 //Declare header files
 #include <iostream>
 #include <iomanip>		//Function to control the format input and output
-#include <cstdlib>		//For system("CLS"); to clear output
+#include <cstdlib>		//For system("CLS"); to clear previous output and create new screen
 #include <cmath>		//set of functions to compute common mathematical operations
 #include <math.h>
-#include <string>   		//For holding string information
 using namespace std;
 
 //Declare prototype functions
